@@ -1,0 +1,84 @@
+                                   ------- JavaScript -------
+
+COMANDOS > >  >
+
+window.alert("Cuidado site em manutenção!")   - vai parecer um box de alerta da tela.
+
+window.confirm("Está gostando do site? ") - vai aparecer um box de confirme ou cancelar na tela.
+
+window.prompt("Qual o seu nome? ") - vai aparecer na tela um box perguntando o seu nome.
+
+                            ---- Aula 02 ----
+
+   Para agente fazer comentarios agente pode usar dois tipos de comentarios
+
+PRIMEIRO COMENTARIO.
+
+        // Faz um comentario na mesma linha.
+        /* 
+
+        */ faz comentario em varias linhas.
+
+   Além disso agente vai aprender outras coisas nessas aula.
+
+ no JavaScript as variáveis vai ser chamar var e também pode ser chamar de outro nome que é let.
+
+                                Aula 10 - EVENTOS COM MAUSE - DOM
+
+                                     EVENTO - mouseenter
+
+      evento é quando colocar o mause em cima de uma elemento( exemplo - um bloco article ) 
+    quando passar o mause em cima dele vai disparar um alerta falando que o mause tá em cima
+         mas esse alerta só vai aparecer ser agente falar para mostrar no console.
+
+                                     EVENTO -maousemove
+
+    Vai disparar um alerta falando que o mause tá ser movendo dentro do elemento que tá selecionado.
+
+                                     EVENTO - mousedown
+
+    Quando clicar no elemento vai disparar um alerta é quando solta o mause vai ser outro EVENTO.
+
+                                    EVENTO - mauseup
+
+    Quando solta o clique vai dispara esse evento
+
+                                    EVENTO - click
+
+    Vai ser quando clica rápido.
+
+                                    Evento - mouseout
+
+    Vai ser quando tirar o mause fora do elemento ai vai dispara esse alerta.
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Tabuada de Multiplicação</h1>
+    <input type="number" name="tabuada01" id="tabuada01">
+    <input type="number" name="tabuada02" id="tabuada02">
+    <input type="button" value="Somar" onclick="somar()">
+    <p id="res">Resultado</p>
+
+    <script>
+        function somar() {
+            let st1 = window.document.getElementById('tabuada01')
+            let st2 = window.document.getElementById('tabuada02')
+            let res = window.document.getElementById('res')
+    
+            let n1 = Number(st1.value)
+            let n2 = Number(st2.value)
+            
+            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${n1*n2}`
+        }
+        
+    </script>
+</body>
+</html>
+

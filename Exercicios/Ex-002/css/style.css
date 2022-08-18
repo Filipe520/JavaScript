@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    width: 1204px;
+    font-size: 4em;
+    color: rgb(255, 255, 255);
+    background-color: rgb(165, 77, 77);
+    margin: 400px;
+
+    line-height: 200px;
+    
+}
+
+body strong {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .9em;
+    color: aquamarine;
+}

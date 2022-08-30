@@ -51,34 +51,31 @@ PRIMEIRO COMENTARIO.
 
     Vai ser quando tirar o mause fora do elemento ai vai dispara esse alerta.
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Tabuada de Multiplicação</h1>
-    <input type="number" name="tabuada01" id="tabuada01">
-    <input type="number" name="tabuada02" id="tabuada02">
-    <input type="button" value="Somar" onclick="somar()">
-    <p id="res">Resultado</p>
+			      		DATA é HORA - new date 
 
-    <script>
-        function somar() {
-            let st1 = window.document.getElementById('tabuada01')
-            let st2 = window.document.getElementById('tabuada02')
-            let res = window.document.getElementById('res')
-    
-            let n1 = Number(st1.value)
-            let n2 = Number(st2.value)
-            
-            res.innerHTML = `A soma entre ${n1} e ${n2} é igual a ${n1*n2}`
-        }
-        
-    </script>
-</body>
-</html>
+    let data = new Date()
 
+    ano com quatro caracteres agente usar o data.getFullYear() é para acessar os elementos de data agente 
+usar o get ai já vai aparecer os elementos de date.
+
+					Verificando uma caixa de input
+
+	let nasc = window.document.......
+	if (nasc.value.lenght == 0 || Number(nasc.value) > ano)
+
+	oque significar o value? O value vai pegar as informação que tá dentro do campo input
+	
+	E lenght == 0 Vai analisar ser o compo vai tá fazio [SIM] ou [NÃO] ser tiver fazio vai aparecer
+	uma mensagem de ERRO
+
+	E as duas || significar ou igual no python que or  
+
+					para criar tag com javascript
+
+	agente vai ter que colocar dentro de uma variável é depos colocar o comando createElement('img')
+	eu tou usando img mas também podia ser qualquer outra tipo h1,h2,h3,strong......
+	é depos agente tem que colocar um atributo com classe ou id olhar sor aqui em baixo.
+
+	let img = document.createElement('img')
+	img.seAttribute('id', 'foto') dentro da tag img vai atribuir um id com o nome foto.
+	

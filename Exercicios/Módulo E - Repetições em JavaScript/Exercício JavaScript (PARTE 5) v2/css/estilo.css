@@ -1,0 +1,155 @@
+@charset "UTF-8"; /* caso haja problemas com acentuação */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(49, 107, 95);
+}
+
+h1 {
+    color: white;
+
+    font-size: 2.5em;
+
+    position: absolute;
+
+    top: 20%;
+    left: 50%;
+
+    transform: translate(-50%);
+    text-shadow: 1px 1px 3px black;;
+}
+
+main {
+    width: min(700px, 90vw);
+    height: 400px;
+
+    padding: 20px;
+
+    background-color: rgb(228, 228, 228);
+    
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.274);
+}
+
+#inicio {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+#parag01 {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 10%;
+    left: 3%;
+}
+
+#fim {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+#parag02 {
+    background-color: rgba(0, 68, 255, 0);
+
+    position: absolute;
+    top: 20%;
+    left: 3%;
+}
+
+#passo {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+#parag03 {
+    background-color: rgba(255, 0, 0, 0);
+    position: absolute;
+    top: 30%;
+    left: 3%;
+}
+
+main > p {
+    font-size: 1.5em;
+
+    background-color: rgba(0, 255, 255, 0);
+    
+}
+
+main input {
+    
+    width: 200px;
+
+    font-size: 1em;
+    background-color: rgb(167, 167, 167);
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.bloco {                        /*DESTAQUE*/
+    width: 220px;
+    background-color: rgb(68, 68, 68);
+}
+
+#butao {
+    width: 100px;
+
+    background-color: rgb(209, 209, 209);
+
+    position: absolute;
+    top: 60%;
+    left: 3%;
+
+    box-shadow: 2px 2px 2px rgba(49, 49, 49, 0.301);
+
+    cursor: pointer;
+}
+
+.butao {
+    color: white;
+    border: 1px solid black;
+
+    transition: .5s;
+}
+
+#resultado {
+    position: absolute;
+    top: 70%;
+    display: none;
+}
+
+#valorResultado {
+    position: absolute;
+
+    font-family: Arial, Helvetica, sans-serif;
+    top: 80%;
+}
+
+#strong01 {
+    color: rgb(214, 45, 45);
+}
+
+#strong02 {
+    color: rgb(255, 255, 255);
+
+    font-size: 1em;
+    text-shadow: 0px 0px 2px black;
+}

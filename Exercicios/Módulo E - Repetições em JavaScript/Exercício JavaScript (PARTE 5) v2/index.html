@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <h1>Vamos contar</h1>
+    <main id="main"
+    onmouseover="mainCima()"
+    onmouseout="mainFora()">
+
+    <p id="inicio">Inicio:</p>
+    
+    <p id="parag01" parag01>
+        <input type="number" name="" id="valor01"
+        onclick="valor01()"
+        onmouseout="mauseFora01()"
+        >
+    </p>
+
+    <p id="fim">Fim:</p>
+
+    <p id="parag02">
+    <input type="number" name="" id="valor02"
+            onclick="valor02()"
+            onmouseout="mauseFora02()"
+            >
+    </p>
+
+    <p id="passo">Passo:</p>
+
+    <p id="parag03">
+        <input type="number" name="valor03" id="valor03"
+        onclick="valor03()"
+        onmouseout="mauseFora03()"
+        >
+    </p>
+
+
+    <input id="butao" type="button" value="Contar"
+    onclick="butaoD(event)"
+    onmouseout="butaoF()"
+    >
+    
+    <p id="resultado">Contando:</p>
+    <p id="valorResultado"></p>
+
+    </main>
+
+    <!-- <script src="js/script02.js"></script>  teste -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

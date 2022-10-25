@@ -1,0 +1,102 @@
+@charset "UTF-8"; /* caso haja problemas com acentuação*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 40, 65);
+}
+
+header {
+    width: 300px;
+
+    margin: 30px auto 30px;
+
+    color: white;
+
+    font-size: 1.3em;
+
+    text-align: center;
+}
+
+main {
+    width: min(60vw, 600px);
+
+    margin: auto;
+    padding: 20px;
+
+    border-radius: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.904);
+
+    display: flex;
+    flex-direction: column;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-weight: 500;
+
+    font-size: min(100vh, 20px);
+
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.685);
+}
+
+p {
+    width: 200px;
+    height: 200px;
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 10px;
+
+    background-color:  black;
+    color: white;
+}
+
+footer{
+    text-align: center;
+
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 20px;
+    
+}
+
+footer > a {
+    color: white;
+
+    font-size: min(100vh, 20px);
+
+    text-decoration: none;
+}
+
+div {
+    margin: auto;
+}
+
+.entrou {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    transition: all ease 1s;
+
+    cursor: pointer;
+}
+
+.saiu {
+    background-color: black;
+    color: white;
+    transition: all ease 1s;
+}
+
+.clicou {
+    background-color: rgb(153, 41, 41);
+    border: 1px solid black;
+    color: white;
+}

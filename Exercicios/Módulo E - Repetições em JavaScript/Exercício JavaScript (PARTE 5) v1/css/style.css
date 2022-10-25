@@ -1,0 +1,101 @@
+@charset "UTF-8"; /* caso haja problemas com acentuação*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 40, 65);
+}
+
+header {
+    width: 300px;
+
+    margin: 30px auto 30px;
+
+    color: white;
+
+    font-size: 1.3em;
+
+    text-align: center;
+}
+
+main {
+    width: min(60vw, 600px);
+
+    margin: auto;
+    padding: 20px;
+
+    border-radius: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.904);
+
+    display: flex;
+    flex-direction: column;
+
+    font-family:Arial, Helvetica, sans-serif;
+
+    font-weight: 500;
+
+    font-size: min(100vh, 20px);
+
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.685);
+}
+
+#txtI, #txtF, #txtP, #contar{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    
+    border-radius: 5px;
+    
+    border: 1px solid black;
+    
+    text-align: center;
+}
+
+#txtI {
+    margin-left: 5px;
+}
+
+#txtF {
+    margin-left: 20px;
+}
+
+.blocoAnimacao {
+    background-color: rgb(134, 135, 136);
+    color: white;
+    border: 1px solid white;
+    font-size: 2em;
+    transition: 1s;
+}
+
+.erro {
+    border: red
+}
+
+#contar {
+    width: 80px;
+    background-color: rgb(230, 230, 230);
+
+    font-size: 16px;
+}
+
+footer{
+    text-align: center;
+
+    
+    font-family: Arial, Helvetica, sans-serif;
+    
+    margin-top: 20px;
+    
+}
+
+footer > a {
+    color: white;
+
+    font-size: min(100vh, 20px);
+
+    text-decoration: none;
+}
